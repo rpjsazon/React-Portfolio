@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/pages/Header';
+import Home from './components/pages/Home';
+import Project from './components/pages/Project';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        {/* Wrap Route elements in a Routes component */}
+        <Routes>
+          {/* Define routes using the Route component to render different page components at different paths */}
+          {/* Define a default route that will render the Home component */}
+
+          {/* Look like Switch Statement */}
+          <Route path="/" element={<Home />} />
+          <Route path="project" element={<Project />} />
+          {/* Define a route that will have descendant routes */}
+          <Route path="contact/*" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
