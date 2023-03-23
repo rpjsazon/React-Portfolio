@@ -1,9 +1,158 @@
 #hero {
-  background-image: url(../images/drone-operator.jpg);
+  background-image: url(../utils/drone-operator.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 95vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.jumbotron-content {
+  width: 70%;
+  color: floralwhite;
+}
+.jumbotron-content p {
+  font-weight: 400;
+}
+.jumbotron-content span {
+  color: #eb5e28;
+  font-weight: 400;
+}
+
+.navbar {
+  color: #eb5e28;
+}
+.navbar-nav .nav-item .nav-link {
+  font-weight: bold;
+  transition: 0.5s;
+  margin-right: 40px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #eb5e28;
+}
+
+/* About and Contact Section*/
+.about-contact-card {
+  border: 0;
+}
+.card-body .contact {
+  text-decoration: none;
+  color:#212529;
+  font-size: 18px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card-body .contact:hover {
+  color: #eb5e28;
+}
+.card-body i {
+  font-size: 18px;
+}
+
+#about-contact {
+  margin-top: 20px;
+}
+
+.col {
+  margin-bottom: 20px;
+}
+
+/* Custom Section Heading */
+.heading-left {
+  text-align: left;
+  background-color: #212529;
+  color: floralwhite;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.heading-center {
+  text-align: center;
+  padding: 15px 0;
+  color: floralwhite;
+}
+.heading-center h1 {
+  background-color: #212529;
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8px;
+  border-radius: 18px;
+}
+.heading-right {
+  text-align: right;
+}
+
+/* Projects Section Styling */
+.carousel-caption {
+  background-color: rgba( 0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: floralwhite;
+}
+.card-body .project-btn{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-body .project-title {
+  text-align: center;
+}
+.project-cards {
+  background-color: rgba( 0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Carousel Transition Blurred */
+.carousel-item img {
+  filter: blur(20px);
+  transition: 0.5s;
+}
+.carousel-item img:hover {
+  filter: blur(0);
+}
+
+/* Skill Section Styling */
+.skill-img {
+  height: 100px;
+}
+.skill-body {
+  padding: 15px;
+  border-radius: 15px;
+  border: solid 5px;
+  margin: 8px;
+}
+
+
+/* Footer Section Styling */
+.jumbotron-fluid {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 0;
+  /* For future modification */
+  /*background-color: rgba(33, 37, 41, 0.7);*/
+}
+.footer-body {
+  border: 0;
+}
+.card-subtitle {
+  text-decoration: none;
+}
+.footer-link {
+  padding: 5px;
+  text-decoration: none;
+  color:#eb5e28;
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 2px 5px 5px rgba( 0, 0, 0, 1);
+}
+.footer-link:hover {
+  color:#eb5e28;
+  opacity: 1;
+  box-shadow: 0 0;
+  text-decoration: none;
 }

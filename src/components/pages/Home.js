@@ -3,8 +3,8 @@ import "../css/style.css";
 
 function Home() {
   return (
-    <div id="hero">
-      <div className="jumbotron bgContent">
+    <div id="hero" className="jumbotron bgContent">
+      <div className="jumbotron-content">
         <p className="lead">
           New to Front-End Development 
           <span> |</span> New to Website Development 
