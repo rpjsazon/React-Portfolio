@@ -145,6 +145,73 @@ function Project() {
                 </div>
               </div>
             </div>
+
+            <div className="col-lg-6 col-md-6 col-sm-12">
+              <div className="card about-contact-card project-cards">
+                <div className="card-body">
+                  <h5 className="card-title project-title">
+                    Bootcamp - Project - 1 - University Explorer
+                  </h5>
+                  <div
+                    id="carouselCaptions-3"
+                    className="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <img
+                          src="img/screenshot-bootstrap-desktop.JPG"
+                          className="d-block w-100"
+                          alt="creenshot-bootstrap-desktop"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    href="https://github.com/rpjsazon/UniversityExplorer"
+                    target="_blank"
+                    className="project-btn btn btn-dark"
+                    rel="noreferrer"
+                  >
+                    Go to my GitHub Page
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6 col-md-6 col-sm-12">
+              <div className="card about-contact-card project-cards">
+                <div className="card-body">
+                  <h5 className="card-title project-title">
+                    Bootcamp - Project - 2 - Business Card Generator
+                  </h5>
+                  <div
+                    id="carouselCaptions-3"
+                    className="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <img
+                          src="img/screenshot-bootstrap-desktop.JPG"
+                          className="d-block w-100"
+                          alt="creenshot-bootstrap-desktop"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    href="https://github.com/GabeKatz90/Business-Card-Generator"
+                    target="_blank"
+                    className="project-btn btn btn-dark"
+                    rel="noreferrer"
+                  >
+                    Go to my GitHub Page
+                  </a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>

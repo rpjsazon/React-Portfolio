@@ -11,6 +11,9 @@ function Contact() {
               <div className="card-body">
               <img src={AboutMePhoto} className="card-img-top" alt="photoofme" />
               </div>
+              <button>
+                <a href="../utils/Resume-FrontEndWebDeveloper.pdf" download>Download Resume</a>
+              </button>
             </div>
           </div>
           
@@ -40,8 +43,8 @@ function Contact() {
                   <h5 className="card-title heading-left">Contact Me</h5>
                     <span className="contact d-block"><i className="fa-solid fa-envelope"></i> rpjsazon@gmail.com</span>
                     <span className="contact d-block"><i className="fa-solid fa-mobile"></i> 074**110***</span>
-                    <span className="contact d-block"><i className="fa-brands fa-github"></i> GitHub</span>
-                    <span className="contact d-block"><i className="fa-brands fa-linkedin"></i> LinkedIn</span>
+                    <a className="contact d-block" href="https://github.com/rpjsazon"><i className="fa-brands fa-github"></i> GitHub</a>
+                    <a className="contact d-block" href="https://www.linkedin.com/in/rjpsazon/"><i className="fa-brands fa-linkedin"></i> LinkedIn</a>
                     <span className="contact d-block"><i className="fa-brands fa-facebook"></i> Facebook</span>
                     <span className="contact d-block"><i className="fa-brands fa-instagram"></i> Instagram</span>
                     <span className="contact d-block"><i className="fa-brands fa-youtube"></i> Youtube</span>
