@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e15d7e3f.css",
+    "main.js": "/react-portfolio/static/js/main.244ba958.js",
+    "static/media/contact-me-photo.png": "/react-portfolio/static/media/contact-me-photo.23c06ab800667081ee76.png",
+    "static/media/drone-operator.jpg": "/react-portfolio/static/media/drone-operator.45c10671ece571fb9f94.jpg",
+    "static/media/react.svg": "/react-portfolio/static/media/react.311aed114e16d40fef126a5efd7cfa17.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/js.svg": "/react-portfolio/static/media/js.41652ee89fb377eb3c7120c9a65e1307.svg",
+    "static/media/code-solid.svg": "/react-portfolio/static/media/code-solid.83ef4d5a8a8686c987b399c001525849.svg",
+    "static/media/css3-alt.svg": "/react-portfolio/static/media/css3-alt.6d6d60e438f88d7a7c590ec5030264f8.svg",
+    "main.e15d7e3f.css.map": "/react-portfolio/static/css/main.e15d7e3f.css.map",
+    "main.244ba958.js.map": "/react-portfolio/static/js/main.244ba958.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e15d7e3f.css",
+    "static/js/main.244ba958.js"
+  ]
+}
