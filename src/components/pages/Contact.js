@@ -12,7 +12,9 @@ function Contact() {
               <img src={AboutMePhoto} className="card-img-top" alt="photoofme" />
               </div>
               <button>
-                <a href="../utils/Resume-FrontEndWebDeveloper.pdf" download>Download Resume</a>
+                <a href="../utils/Resume-FrontEndWebDeveloper" download="resume.pdf">
+                  Download Resume
+                </a>
               </button>
             </div>
           </div>
