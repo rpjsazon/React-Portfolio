@@ -3,7 +3,7 @@
 ## Description
 
 In this challenge, I will demonstrate how to create a simple react portfolio using bootstrap and router libries.
-
+g
 
 ## Installation
 
@@ -11,7 +11,6 @@ In this challenge, I will demonstrate how to create a simple react portfolio usi
   git clone "git@github.com:rpjsazon/react-portfolio.git"
   cd react-portfolio
   npm install
-
 ```
 
 ## Screenshots
